@@ -33,7 +33,7 @@ library(rMultiNet)
 
 ### Usage example
 The package is developed with the modular pipeline mode: generative modeling, embedding algorithms and visualization. 
-####Generative modeling
+#### Generative modeling
 ```sh
 library(rMultiNet)
 GenerateMMSBM(n, m, L, K, d = NULL, r = NULL)
@@ -44,14 +44,14 @@ Also, rMultiNet provides three datasets for study：human malaria parasite gene 
 load("~/Desktop/rMultiNet/data/malariagene/malaria.RData")
 ```
 
-####Emdedding algorithms
+#### Emdedding algorithms
 Take one of the algorithms for example.
 ```sh
 InitializationMMSBM(tnsr, ranks=NULL)
 PowerIteration(tnsr, ranks=NULL, type=”TWIST”, U 0 list, delta1=1000, delta2=1000, max iter = 25, tol = 1e-05)
 ```
 
-####Visulization
+#### Visulization
 ```sh
 Embedding_network(network membership,L, paxis=2)
 Community_cluster_km(embedding,type,cluster number)
