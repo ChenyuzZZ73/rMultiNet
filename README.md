@@ -1,9 +1,7 @@
-rMultiNet: An R Package For Multilayer Networks Analysis
+# rMultiNet: An R Package For Multilayer Networks Analysis
 
-##Overview
-rMultiNet introduces an extension R package that includes a variety of traditional and
-state-of-the-art tensor decomposition methods for mixture multilayer networks analysis.
-The package is developed with the modular pipeline mode: generative modeling, embedding algorithms and visualization.  rMultiNet aims to help study complex networks, especially mixture multilayer networks.
+## Overview
+rMultiNet introduces an extension R package that includes a variety of traditional and state-of-the-art tensor decomposition methods for mixture multilayer networks analysis.The package is developed with the modular pipeline mode: generative modeling, embedding algorithms and visualization.  rMultiNet aims to help study complex networks, especially mixture multilayer networks.
 
 
 ![](https://github.com/ChenyuzZZ73/rMultiNet/blob/main/framework.png)
