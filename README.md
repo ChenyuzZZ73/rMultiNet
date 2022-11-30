@@ -14,20 +14,15 @@ Before using the rMultiNet, you need to install the following packages.
 require(rTensor)
 require(ggplot)
 require(Matrix)
-require(geigen）
+require(plotly)
 ```
 
 ### Installation
 
-Install the stable version of R-package from CRAN with:
-
+Install the stable version of R-package from Git rMultiNet package directly with:
 ```sh
-install.packages("rMultiNet")
-library(rMultiNet)
-```
-Git rMultiNet package directly with:
-```sh
-git clone https://github.com/ChenyuzZZ73/rMultiNet.git
+devtools::install_github("ChenyuzZZ73/rMultiNet")
+bulid()
 library(rMultiNet)
 ```
 
@@ -67,7 +62,7 @@ If you use `rMultiNet` or reference our tutorials in a presentation or publicati
 
 
 
-##Reference
+## Reference
 - Bing-Yi Jing, Ting Li, Zhongyuan Lyu, and Dong Xia. Community detection on mixture
 multilayer networks via regularized tensor decomposition. The Annals of Statistics, 49
 (6):3181–3205, 20
@@ -75,4 +70,3 @@ multilayer networks via regularized tensor decomposition. The Annals of Statisti
 - Xiaowen Dong, Pascal Frossard, Pierre Vandergheynst, and Nikolai Nefedov. Clustering
 with multi-layer graphs: A spectral perspective. IEEE Transactions on Signal Processing,
 60(11):5820–5831, 2012
-
