@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Chenyu Ren, Ting Li, Zhongyuan Lyu, Dong Xia
 Maintainer: <chenyu.ren@connect.polyu.hk>
 Depends: R (>= 4.2.0)
-Description: More about what it does (maybe more than one line)
+Description: https://github.com/ChenyuzZZ73/rMultiNet
 License: MIT
 Encoding: UTF-8
 LazyData: true
