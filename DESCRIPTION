@@ -1,9 +1,0 @@
-Package: rMultiNet
-Type: Package
-Title: rMultiNet: An R package
-Version: 0.1.0
-Maintainer: The package maintainer <22042039r@connect.polyu.hk>
-Description: analyze mixture multilayer network data
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
